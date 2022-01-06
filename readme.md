@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <img src="./assets/bode.gif" alt="Logo" width="1000">
+    <img src="/assets/bode.gif" alt="Logo" width="1000">
 
   <h3 align="center">WiseGoat by <a href="https://github.com/Lorenalgm">Lorena</a></h3>
  <br />
