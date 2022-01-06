@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
-/* ---------------TEMPORAIO ---------------*/
-
-main button {
-    display: block;
-    margin: 10px auto;
-    background-color: var(--cor-primaria);
-    color: white;
-    border: none;
-    font-size: 1em;
-    padding: 15px;
-    border-radius: 15px;
-}
 
 * {
     margin: 0;
@@ -34,7 +22,7 @@ img {
     --cor-secundaria:#BAA193;
 }
 
-body {
+.pagina-inicio {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     display: flex;
@@ -42,7 +30,7 @@ body {
     justify-content: center;
 }
 
-main {
+.inicio-container {
     display: flex;
     align-items:flex-end;
     flex-wrap: wrap;
@@ -86,8 +74,6 @@ main {
     animation: levitacao 1.3s infinite alternate;
 }
 
-
-
 @keyframes levitacao {
     0% {
         transform: translatey(-60px);
@@ -97,6 +83,87 @@ main {
         transform: translatey(0);
     }
 }
+
+
+
+
+/*------------------PAGINA CONSELHO -----------------*/
+
+.conselho-header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.conselho-header button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-family: 700;
+    color: var(--cor-secundaria);
+    margin: 20px;
+}
+
+.conselho-header button:hover {
+    cursor: pointer;
+}
+
+.conselho-header button span {
+    position: absolute;
+    font-size: 2.5em;
+    left: 9px;
+    color: var(--cor-primaria);
+}
+
+.conselho-img {
+    min-width: 300px;
+    max-width: 300px;
+    height: 350px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+
+.conselho-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEBE1;
+    max-width: 700px;
+    min-height: 350px;
+    margin: 100px auto;
+}
+
+.conselho-texto {
+    font-size: 2em;
+    color: var(--cor-primaria);
+    padding: 30px;
+    position: relative;
+}
+
+.conselho-texto .fa-quote-left{
+    position: absolute;
+    left:15px;
+    top: -15px;
+    color: red;
+ }
+
+.conselho-texto .fa-quote-right{
+   position: absolute;
+   right:15px;
+   color: red;
+}
+
+.conselho-texto span {
+    font-size: 0.7em;
+    color: var(--cor-secundaria);
+    position: absolute;
+    padding: 10px;
+    right:20px;
+    margin-top: 40px;
+}
+
+
 
 
 @media (max-width:720px){
@@ -114,3 +181,9 @@ main {
         margin-top: 90px;
     }
 }
+
+@media (max-width:565px) {
+    .conselho-img {
+        display: none;
+    }
+} 

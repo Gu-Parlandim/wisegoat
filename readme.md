@@ -117,3 +117,6 @@ console.log(`${obj[0].frase} - ${obj[0].autor}`);  //Os problemas são oportunid
 ```
 
 ### Contate-me no instagram: [@dev.matheusguerra](https://www.instagram.com/dev.matheusguerra/)
+
+
+https://github.com/devmatheusguerra/frasesJSON
