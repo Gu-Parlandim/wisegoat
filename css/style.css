@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
+/* ---------------TEMPORAIO ---------------*/
 
+main button {
+    display: block;
+    margin: 10px auto;
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 15px;
+}
 
 * {
     margin: 0;
