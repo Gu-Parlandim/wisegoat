@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap'); 
 
 * {
     margin: 0;
@@ -22,8 +21,11 @@ img {
     --cor-secundaria:#BAA193;
 }
 
-.pagina-inicio {
+body {
     font-family: 'Roboto', sans-serif;
+}
+
+.pagina-inicio {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -78,14 +80,7 @@ img {
     0% {
         transform: translatey(-60px);
     }
-
-    100% {
-        transform: translatey(0);
-    }
 }
-
-
-
 
 /*------------------PAGINA CONSELHO -----------------*/
 
@@ -123,7 +118,6 @@ img {
     overflow: hidden;
 }
 
-
 .conselho-container {
     display: flex;
     justify-content: center;
@@ -132,6 +126,7 @@ img {
     max-width: 700px;
     min-height: 350px;
     margin: 100px auto;
+    border-radius: 15px;
 }
 
 .conselho-texto {
@@ -139,6 +134,7 @@ img {
     color: var(--cor-primaria);
     padding: 30px;
     position: relative;
+    text-align: center;
 }
 
 .conselho-texto .fa-quote-left{
@@ -163,8 +159,58 @@ img {
     margin-top: 40px;
 }
 
+/* ------------------POP-UP------------------------- */
 
+.pop-up {
+    position: absolute;
+    background-color: #EFEBE1;
+    color: var(--cor-primaria);
+    padding:7px;
+    left: 170px;
+    top: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 195px;
+    animation:animation-pop 0.5s  infinite alternate
+}
 
+@keyframes animation-pop {
+    0%{ 
+        transform: translateX(15px);
+    }
+}
+
+/* ------------------FIM DO POP-UP------------------------- */
+
+/* ------------------ARROW------------------------- */
+
+.arrow-element {
+    width: 15px;
+    margin: 0 10px 9px 4px;
+}
+
+.arrow {
+    position: relative;
+}
+
+.arrow-top {
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    background-color: var(--cor-primaria);
+    transform: rotate(-21deg)
+}
+
+.arrow-bottom {
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    background-color:var(--cor-primaria);
+    top: 5px;
+    transform: rotate(21deg)
+}
+/* ------------------FIM ARROW------------------------- */
 
 @media (max-width:720px){
     main {
@@ -178,12 +224,23 @@ img {
         margin: 10px;
     }
     .logo-texto {
-        margin-top: 90px;
+        margin-top: 20px;
+    }
+    .bode_container {
+        margin-top: 25px;
+    }
+    @keyframes levitacao {
+        0% {
+            transform: translatey(-40px);
+        }
     }
 }
 
 @media (max-width:565px) {
     .conselho-img {
         display: none;
+    }
+    .pop-up {
+        font-size: 0.8em;
     }
 } 

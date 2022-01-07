@@ -1828,5 +1828,265 @@
     "id" : 366,
     "autor" : "Henry Ford",
     "frase" : "O insucesso é uma oportunidade para recomeçar com mais inteligência"
-  }
+  },
+  {
+    "id" : 367,
+    "autor" : "O Pequeno Príncipe",
+    "frase" : "Tu te tornas eternamente responsável por aquilo que cativas."
+    },
+    {
+        "id" : 368,
+        "autor" : "O Pequeno Príncipe",
+        "frase" : "As pessoas são solitárias porque constroem muros ao invés de pontes."
+    },
+    {
+        "id" : 369,
+        "autor" : "O Pequeno Príncipe",
+        "frase" : "A gente corre o risco de chorar um pouco quando se deixa cativar."
+    },
+    {
+        "id" : 370,
+        "autor" : "O Pequeno Príncipe",
+        "frase" : "Quando a gente anda sempre em frente, não pode ir muito longe..."
+    },
+    {
+        "id" : 371,
+        "autor" : "O Pequeno Príncipe",
+        "frase" : "É loucura odiar todas as rosas porque uma te espetou."
+    },
+    {
+        "id" : 372,
+        "autor" : "O Pequeno Príncipe",
+        "frase" : "É preciso que eu suporte duas ou três larvas se quiser conhecer as borboletas."
+    },
+    {
+        "id" : 373,
+        "autor" : "J.K. Rowling",
+        "frase" : "O maior erro de noventa e nove por cento das pessoas é ter vergonha de serem quem são, é mentir a esse respeito, fingindo ser alguém diferente."
+    },
+    {
+        "id" : 374,
+        "autor" : "J.K. Rowling",
+        "frase" : "Não adianta se entregar aos sonhos se você se esquece de viver."
+    },
+    {
+        "id" : 375,
+        "autor" : "J.K. Rowling",
+        "frase" : "O espírito sem limites é o maior tesouro do homem."
+    },
+    {
+        "id" : 376,
+        "autor" : "J.K. Rowling",
+        "frase" : "Você meio que começa a pensar que tudo é possível se você tiver nervos suficiente."
+    },
+    {
+        "id" : 377,
+        "autor" : "J.K. Rowling",
+        "frase" : "É claro que é coisa de sua imaginação mais isso significa que não é real?"
+    },
+    {
+        "id" : 378,
+        "autor" : "J.K. Rowling",
+        "frase" : "Os seres humanos têm um talento especial para escolher precisamente as coisas que são piores para eles."
+    },
+    {
+        "id" : 379,
+        "autor" : "J.K. Rowling",
+        "frase" : "Não vale a pena viver sonhando e se esquecer de viver."
+    },
+    {
+        "id" : 380,
+        "autor" : "O Pequeno Príncipe",
+        "frase" : "Só se vê bem com o coração. O essencial é invisível aos olhos."
+    },
+    {
+        "id" : 390,
+        "autor" : "Bob Marley",
+        "frase" : "Difícil não é lutar por aquilo que se quer, e sim desistir daquilo que se mais ama."
+    },
+    {
+        "id" : 391,
+        "autor" : "William Shakespeare",
+        "frase" : "Nossas dúvidas são traidoras e nos fazem perder o que, com frequência, poderíamos ganhar, por simples medo de arriscar."
+    },
+    {
+        "id" : 392,
+        "autor" : "Clarice Lispector",
+        "frase" : "Até cortar os próprios defeitos pode ser perigoso. Nunca se sabe qual é o defeito que sustenta nosso edifício inteiro."
+    },
+    {
+        "id" : 393,
+        "autor" : "Clarice Lispector",
+        "frase" : "ergulhe no que você não conhece como eu mergulhei. Não se preocupe em entender, viver ultrapassa qualquer entendimento."
+    },
+    {
+        "id" : 394,
+        "autor" : "A vantagem de ter péssima memória é divertir-se muitas vezes com as mesmas coisas boas como se fosse a primeira vez.",
+        "frase" : "Friedrich Nietzsche"
+    },
+    {
+        "id" : 395,
+        "autor" : "Bob Marley",
+        "frase" : "Não viva para que a sua presença seja notada, mas para que a sua falta seja sentida."
+    },
+    {
+        "id" : 396,
+        "autor" : "Richard Lindgard",
+        "frase" : "É possível descobrir mais sobre uma pessoa numa hora de brincadeira do que num ano de conversa."
+    },
+    {
+        "id" : 397,
+        "autor" : "Bob Marley",
+        "frase" : "Se Deus criou as pessoas para amar e as coisas para cuidar, por que amamos as coisas e usamos as pessoas?"
+    },
+    {
+        "id" : 398,
+        "autor" : "Carlos Drummond de Andrade",
+        "frase" : "Perder tempo em aprender coisas que não interessam priva-nos de descobrir coisas interessantes."
+    },
+    {
+        "id" : 399,
+        "autor" : "Desconhecido",
+        "frase" : "Há três coisas na vida que nunca voltam atrás: a flecha lançada, a palavra pronunciada e a oportunidade perdida."
+    },
+    {
+        "id" : 400,
+        "autor" : "George R. R. Martin",
+        "frase" : "Um homem que luta por moedas é leal apenas à sua carteira."
+    },
+    {
+        "id" : 401,
+        "autor" : "Bruce Barton",
+        "frase" : "Para o bem ou para o mal, suas palavras são a sua propaganda. Todas as vezes que abre a boca, você revela o que existe em sua mente."
+    },
+    {
+        "id" : 402,
+        "autor" : "James R. Sherman",
+        "frase" : "Embora ninguém possa voltar atrás e fazer um novo começo, qualquer um pode começar agora e fazer um novo fim."
+    },
+    {
+        "id" : 403,
+        "autor" : "J.R.R. Tolkien",
+        "frase" : "O elogio que vem daquele que merece o elogio está acima de todas as recompensas."
+    },
+    {
+        "id" : 404,
+        "autor" : "J.R.R. Tolkien",
+        "frase" : "A mão queimada ensina melhor. Depois disso o conselho sobre o fogo chega ao coração."
+    },
+    {
+        "id" : 405,
+        "autor" : "J.R.R. Tolkien",
+        "frase" : "Aquele que quebra uma coisa para descobrir o que ela é deixou o caminho da sabedoria."
+    },
+    {
+        "id" : 406,
+        "autor" : "J.R.R. Tolkien",
+        "frase" : "Que haja uma luz nos lugares mais escuros, quando todas as outras luzes se apagarem."
+    },
+    {
+        "id" : 407,
+        "autor" : "J.R.R. Tolkien",
+        "frase" : "Encontra-se a coragem em lugares improváveis"
+    },
+    {
+        "id" : 408,
+        "autor" : "J.R.R. Tolkien",
+        "frase" : "Tudo o que temos de decidir é o que fazer com o tempo que nos é dado."
+    },
+    {
+        "id" : 409,
+        "autor" : "J.R.R. Tolkien",
+        "frase" : "Você pode encontrar as coisas que perdeu, mas nunca as que abandonou."
+    },
+    {
+        "id" : 410,
+        "autor" : "J.R.R. Tolkien",
+        "frase" : "O conselho é uma dádiva perigosa, mesmo dos sábios para os sábios, e tudo pode dar errado."
+    },
+    {
+        "id" : 411,
+        "autor" : "Andrzej Sapkowski",
+        "frase" : "Nunca há uma segunda oportunidade para causar uma primeira impressão."
+    },
+    {
+        "id" : 412,
+        "autor" : "Lao-Tsé",
+        "frase" : "Aquele que não tem confiança nos outros, não lhes pode ganhar a confiança."
+    },
+    {
+        "id" : 412,
+        "autor" : "Bernadette Devlin",
+        "frase" : "Para ganhar aquilo que vale a pena ter, pode ser necessário perder tudo mais."
+    },
+    {
+        "id" : 413,
+        "autor" : "Fran Lebowitz",
+        "frase" : "Loteria: acho que, jogando ou não, você tem a mesma chance de ganhar."
+    },
+    {
+        "id" : 414,
+        "autor" : "Confúcio",
+        "frase" : "Quando vires um homem bom, tenta imitá-lo; quando vires um homem mau, examina-te a ti mesmo."
+    },
+    {
+        "id" : 415,
+        "autor" : "Confúcio",
+        "frase" : "Exige muito de ti e espera pouco dos outros. Assim, evitarás muitos aborrecimentos."
+    },
+    {
+        "id" : 416,
+        "autor" : "Albert Einstein",
+        "frase" : "Duas coisas são infinitas: o universo e a estupidez humana. Mas, em relação ao universo, ainda não tenho certeza absoluta."
+    },
+    {
+        "id" : 417,
+        "autor" : "O mundo não está ameaçado pelas pessoas más, e sim por aquelas que permitem a maldade.",
+        "frase" : "Albert Einstein"
+    },
+    {
+        "id" : 418,
+        "autor" : "Friedrich Nietzsche",
+        "frase" : "Há sempre alguma loucura no amor. Mas há sempre um pouco de razão na loucura."
+    },
+    {
+        "id" : 419,
+        "autor" : "citação de livro: Lewis Carroll ",
+        "frase" : "Quando acordei hoje de manhã, eu sabia quem eu era, mas acho que já mudei muitas vezes desde então."
+    },
+    {
+        "id" : 420,
+        "autor" : "C. S. Lewis",
+        "frase" : "Quando os pés estão corretos, todo o resto nos acompanha."
+    },
+    {
+        "id" : 421,
+        "autor" : "Machado de Assis",
+        "frase" : "Cada qual sabe amar a seu modo; o modo pouco importa; o essencial é que saiba amar."
+    },
+    {
+        "id" : 422,
+        "autor" : "Paulo Coelho",
+        "frase" : "Nunca podemos julgar a vida dos outros, porque cada um sabe de sua própria dor e renúncia."
+    },
+    {
+        "id" : 423,
+        "autor" : "Oscar Wilde",
+        "frase" : "Há coisas que são preciosas por não durarem."
+    },
+    {
+        "id" : 424,
+        "autor" : "David Nicholls",
+        "frase" : "Você pode passar a vida inteira sem perceber que aquilo que procura está bem na sua frente."
+    },
+    {
+        "id" : 425,
+        "autor" : "F. Scott Fitzgerald",
+        "frase" : "Espero que você leve uma vida da qual se orgulhe, ou que tenha força para começar tudo de novo."
+    },
+    {
+        "id" : 426,
+        "autor" : "Stephenie Meye",
+        "frase" : "Afinal, de quantas maneiras um coração pode ser destroçado e continuar batendo?"
+    }
 ]
