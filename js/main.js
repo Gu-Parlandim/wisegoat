@@ -1,5 +1,5 @@
 const urlimagens = "https://dog.ceo/api/breeds/image/random"
-
+let timePopUp
 
 const pegarImagens = () => {
     fetch(urlimagens)
@@ -17,7 +17,7 @@ const renderizarNaTela = () => {
             if(window.innerWidth > 565){
                 pegarImagens()
             }
-            setTimeout(gerarPopUp,3000)
+            timePopUp = setTimeout(gerarPopUp,2600)
         })
 } 
 
@@ -60,6 +60,7 @@ mostraImagenNaTela = ({message}) => {
 
 
 paginaInicial = () =>{
+    clearTimeout(timePopUp)
     let pagina = document.querySelector("body")
     pagina.classList.replace("pagina-conselho", "pagina-inicio")
     pagina.innerHTML = `
