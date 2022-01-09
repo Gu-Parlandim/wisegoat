@@ -50,7 +50,14 @@ paginaConselho = (frase, autor) => {
         <div class="conselho-img">
             <img class="img-dogs" src="" alt="cao">
         </div>
-    </main>`
+    </main>
+    <footer>
+        <div>
+            <p>
+            Desenvolvido por:<a href="https://www.instagram.com/parlandim_dev/" target="_bank"><img src="../assets/instagram.png" alt="instragam"><strong>Gustavo Parlandim</strong></a> para o <a href="https://www.devchallenge.com.br/" target="_bank">Dev<span>Challenge</span></a>
+            </p>
+        <div>
+    </footer>`
 }
 
 mostraImagenNaTela = ({message}) => {
@@ -85,10 +92,7 @@ gerarPopUp = () => {
     paginaElement.insertAdjacentElement("afterend", newElement)
     newElement.innerHTML = `
     <div class="arrow-element">
-        <div class="arrow">
-            <div class="arrow-top"></div>
-            <div class="arrow-bottom"></div>
-        </div>
+        <img src="../assets/arrow-left.svg" alt="arrow icon">
     </div>
     <p>Clique para ver mais.</p>`
 }
