@@ -193,6 +193,10 @@ body {
 footer {
     width: 100%;
     font-size: 0.8em;
+    margin: 5px;
+    position: fixed;
+    bottom: 0;
+    word-wrap: break-word;
 }
 
 footer img{  
@@ -210,7 +214,7 @@ footer span {
 
 footer div {
     margin: 0 auto;
-    max-width: 445px;
+    max-width: 349px;
 }
 
 footer strong {
