@@ -54,7 +54,7 @@ paginaConselho = (frase, autor) => {
     <footer>
         <div>
             <p>
-            Desenvolvido por:<a href="https://www.instagram.com/parlandim_dev/" target="_bank"><img src="../assets/instagram.png" alt="instragam"><strong>Gustavo Parlandim</strong></a> para o <a href="https://www.devchallenge.com.br/" target="_bank">Dev<span>Challenge</span></a>
+            Desenvolvido por:<a href="https://www.instagram.com/parlandim_dev/" target="_bank"><i class="fab fa-instagram"></i><strong>Gustavo Parlandim</strong></a> para o <a href="https://www.devchallenge.com.br/" target="_bank">Dev<span>Challenge</span></a>
             </p>
         <div>
     </footer>`
@@ -79,7 +79,7 @@ paginaInicial = () =>{
             <button onclick="renderizarNaTela()">Pedir Conselho</button>
         </div>
         <div class="bode_container">
-            <img src="assets/bodezinho.png" alt="grande bode sabio das montanhas do leste">
+            <img src="assets/bodezinho.webp" alt="grande bode sabio das montanhas do leste">
         </div>
     </main>`
 }
@@ -92,7 +92,7 @@ gerarPopUp = () => {
     paginaElement.insertAdjacentElement("afterend", newElement)
     newElement.innerHTML = `
     <div class="arrow-element">
-        <img src="../assets/arrow-left.svg" alt="arrow icon">
+    <i class="fas fa-chevron-left"></i>
     </div>
     <p>Clique para ver mais.</p>`
 }

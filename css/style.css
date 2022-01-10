@@ -187,7 +187,7 @@ body {
 
 .arrow-element {
     margin: 0 10px 0px 4px;
-    width: 30px;
+    width: 10px;
 }
 /* ------------------FIM ARROW------------------------- */
 footer {
@@ -198,11 +198,6 @@ footer {
     bottom: 0;
     word-wrap: break-word;
 }
-
-footer img{  
-    width: 10px;
-    margin-left:5px;
-} 
 
 footer a {
     color: black;
@@ -217,7 +212,7 @@ footer div {
     max-width: 349px;
 }
 
-footer strong {
+footer strong, footer i {
     background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -225,6 +220,9 @@ footer strong {
 }
 
 
+footer i {
+    margin-left: 5px;
+}
 
 @media (max-width:720px){
     main {
