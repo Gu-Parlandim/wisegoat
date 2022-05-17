@@ -1,8 +1,8 @@
 <br />
 <p align="center">
-    <img src="/assets/bode.gif" alt="Logo" width="1000">
+    <img src="https://github.com/Gu-Parlandim/wisegoat/blob/master/design/pagina1_home.png" alt="Logo" width="1000">
 
-  <h3 align="center">WiseGoat by <a href="https://github.com/Lorenalgm">Lorena</a></h3>
+  <h3 align="center">WiseGoat, desafio by <a href="https://github.com/Lorenalgm">Lorena</a></h3>
  <br />
   <p align="center">
      Site gerador de conselhos e imagens de dogs :)
